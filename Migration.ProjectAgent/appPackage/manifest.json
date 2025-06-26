@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+  "version": "1.0.0",
+  "manifestVersion": "1.15",
+  "id": "e7081405-07c6-47e9-9da1-f6a5930584dd",
+  "packageName": "com.package.name",
+  "name": {
+    "short": "PA Migration Bot",
+    "full": "Echo Bot"
+  },
+  "developer": {
+    "name": "Microsoft",
+    "mpnId": "",
+    "websiteUrl": "https://microsoft.com",
+    "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/terms-of-use"
+  },
+  "description": {
+    "short": "Sample bot that repeats back what you say",
+    "full": "Sample bot that repeats back what you say"
+  },
+  "icons": {
+    "outline": "outline.png",
+    "color": "color.png"
+  },
+  "accentColor": "#FFFFFF",
+  "staticTabs": [
+    {
+      "entityId": "conversations",
+      "scopes": [ "personal" ]
+    },
+    {
+      "entityId": "about",
+      "scopes": [ "personal" ]
+    }
+  ],
+  "bots": [
+    {
+      "botId": "e7081405-07c6-47e9-9da1-f6a5930584dd",
+      "scopes": [ "personal", "team", "groupChat" ],
+      "isNotificationOnly": false,
+      "supportsCalling": false,
+      "supportsVideo": false,
+      "supportsFiles": false
+    }
+  ],
+  "validDomains": [
+    "https://0l74t1xt-3978.asse.devtunnels.ms",
+    "*.ngrok.io",
+    "*.devtunnels.ms",
+    "*.botframework.com"
+  ],
+  "webApplicationInfo": {
+    "id": "e7081405-07c6-47e9-9da1-f6a5930584dd",
+    "resource": "api://botid-e7081405-07c6-47e9-9da1-f6a5930584dd"
+  }
+}
